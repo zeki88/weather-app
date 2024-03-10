@@ -1,0 +1,43 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeki88/weather-app.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Zeki88",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeki88/weather-app/issues"
+  },
+  "homepage": "https://github.com/zeki88/weather-app#readme",
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7",
+    "css-loader": "^6.10.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1"
+  }
+}
