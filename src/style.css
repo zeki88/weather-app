@@ -6,6 +6,7 @@
 }
 
 body{
+  width: 100vw;
   min-height: 100vh;
   background: url("./img/noaa-kcvlb727mn8-unsplash.jpg");
   background-size: cover;
@@ -120,7 +121,7 @@ a{
   color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media (orientation: portrait) {
   .container {
     flex-direction: column;
     overflow: auto;
@@ -130,5 +131,31 @@ a{
   }
   .search_input {
     width: 200px;
+  }
+  .city_card {
+    font-size: 5vw;
+    width: 50vw;
+    height: 65vw;
+  }
+  .day {
+    font-size: 4vw;
+    width: 32.26vw;
+    height: 35.85vw;
+  }
+  .navbar {
+    font-size: 4vw;
+  }
+  .search_input {
+    font-size: 3vw;
+    width: 30vw;
+  }
+  .fa-magnifying-glass {
+    font-size: 3vw;
+  }
+  .fa-umbrella {
+    font-size: 8vw;
+  }
+  footer {
+    font-size: 3vw;
   }
 }
